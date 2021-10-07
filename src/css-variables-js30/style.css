@@ -1,0 +1,47 @@
+:root{
+    --blur:0;
+    --spacing:0;
+    --color:#BADA55;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color);
+    height: 80%;
+}
+.pBox{
+    position: relative;
+    width: 65%;
+    height: 60%;
+    padding: var(--spacing);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(var(--blur));
+    background-color: var(--color);
+}
+img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
