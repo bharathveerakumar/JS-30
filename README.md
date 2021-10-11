@@ -4,4 +4,11 @@
 <br> <br>
 <a href="https://adoring-kowalevski-974ec7.netlify.app/src/drum-kit/">Drum-kit</a>
 <br> <br>
+<a href="https://adoring-kowalevski-974ec7.netlify.app/src/fun-with-canvas/">Fun-With-Canvas</a>
+<br> <br>
+<a href="https://adoring-kowalevski-974ec7.netlify.app/src/input%20search/">Type Ahead</a>
+<br> <br>
+<a href="https://adoring-kowalevski-974ec7.netlify.app/src/css-variables-js30/">Css-Varibles</a>
+<br> <br>
+
 
