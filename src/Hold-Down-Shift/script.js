@@ -1,11 +1,11 @@
 const input=document.querySelectorAll('input');
 const value=document.querySelectorAll('label');
-let holded=false, first='zero', end, flagFirst=0, flagLast=0;
+let holded=false, first='zero', flagFirst=0, flagLast=0;
 
 input.forEach((inp)=>{
     inp.addEventListener('click', ()=>{
         let id=inp.getAttribute('id');
-        if(holded&&(inp.checked)) shiftUp(id);
+        if(holded&&inp.checked) shiftUp(id);
         else if(holded&&!inp.checked) shiftDown(id);
         else{
             first=id;
